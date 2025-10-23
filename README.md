@@ -1,39 +1,44 @@
 # API REST de Gestión de Usuarios
 
-Este proyecto implementa una API REST para las operaciones CRUD (Crear, Listar, Actualizar, Eliminar) de la entidad `Usuario`. Está construido sobre **.NET 8** y utiliza la **Arquitectura Limpia (Clean Architecture)** para garantizar la separación de preocupaciones, la testeabilidad y la robustez transaccional.
+Este proyecto implementa una API REST para las operaciones CRUD (Crear, Listar, Actualizar, Eliminar) de la entidad `Usuario`. Está construido sobre **.NET 8** y utiliza la **Arquitectura Limpia (Clean Architecture)**.
 
 ---
 
 ## Arquitectura del Proyecto (Clean Architecture)
 
-El proyecto sigue el patrón **Clean Architecture**, donde la dependencia siempre fluye de las capas externas (detalles) a las capas internas (políticas de negocio). Esto asegura que el código del núcleo sea independiente del framework y la base de datos.
+El proyecto se basa en **Clean Architecture**, asegurando que el código de negocio sea independiente de los detalles de infraestructura.
 
 | Proyecto | Capa | Rol Principal |
 | :--- | :--- | :--- |
 | `Domain` | 🟢 Dominio | Definición de la entidad `Usuario`. |
 | `Application` | 🟡 Aplicación | Definición de interfaces de contratos (`IUnitOfWork`, `IUsuarioRepository`). |
 | `Infrastructure` | 🟠 Infraestructura | Implementación del acceso a datos usando Dapper y SQL Server. |
-| `API` | 🔴 Presentación | Puntos de entrada (*Controllers*) y configuración del *host*. |
+| `Api` | 🔴 Presentación | Puntos de entrada (*Controllers*) y configuración del *host*. |
 
 ---
 
 ## Tecnologías y Librerías Clave
 
-| Librería | Categoría | Función Principal |
-| :--- | :--- | :--- |
-| **.NET 8** | Framework | Marco de desarrollo moderno y robusto. |
-| **Dapper** | Micro-ORM | Mapeo rápido de datos de Stored Procedures a objetos C#. |
-| **Microsoft.Data.SqlClient** | Acceso a Datos | Proveedor para la conexión física con SQL Server. |
-| **xUnit** y **Moq** | Testing | Frameworks utilizados para las pruebas unitarias. |
-| **Docker** | Contenedor | Entorno de despliegue para el aislamiento del servicio. |
+* **Framework:** .NET 8
+* **Acceso a Datos:** **Dapper** (Micro-ORM de alto rendimiento).
+* **Base de Datos:** SQL Server.
+* **Contenedor:** Docker.
+* **Testing:** **xUnit** y **Moq** (para pruebas unitarias).
 
 ---
 
-## Configuración y Ejecución con Docker
+## Configuración y Ejecución
 
-### Conectividad a SQL Server
+### 1. Requisitos de la Base de Datos
 
-La cadena de conexión debe usar **`host.docker.internal`** para que el contenedor pueda resolver la dirección de SQL Server en tu máquina anfitriona. Se requiere el **Modo de Autenticación Mixta** habilitado en SQL Server.
+**¡IMPORTANTE!** Para que el proyecto funcione, la base de datos `DB_Usuarios` debe estar configurada.
+
+1.  **Ejecute los Scripts de SQL:** Debe ejecutar el script SQL que contiene las sentencias `CREATE DATABASE`, `CREATE TABLE Usuario` y todos los `CREATE PROCEDURE` (Stored Procedures) requeridos para el CRUD.
+2.  **Configuración de SQL Server:** Asegure que su instancia de SQL Server esté en **Modo de Autenticación Mixta** y que el protocolo **TCP/IP** esté habilitado.
+
+### 2. Conectividad a SQL Server
+
+La cadena de conexión debe usar **`host.docker.internal`** para que el contenedor pueda resolver la dirección de SQL Server en su máquina anfitriona (host).
 
 **En `appsettings.json` o Variables de Entorno:**
 
