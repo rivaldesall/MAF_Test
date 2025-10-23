@@ -34,7 +34,7 @@ El proyecto se basa en **Clean Architecture**, asegurando que el código de nego
 **¡IMPORTANTE!** Para que el proyecto funcione, la base de datos `MAF_Usuarios` debe estar configurada.
 
 1.  **Ejecute los Scripts de SQL:** Debe ejecutar el script SQL que contiene las sentencias `CREATE DATABASE`, `CREATE TABLE Usuario` y todos los `CREATE PROCEDURE` (Stored Procedures) requeridos para el CRUD.
-2.  **Configuración de SQL Server:** Asegure que su instancia de SQL Server esté en **Modo de Autenticación Mixta** y que el protocolo **TCP/IP** esté habilitado.
+2.  **Configuración de SQL Server:** Asegure que su instancia de SQL Server esté en **Modo de Autenticación Mixta** y que el protocolo **TCP/IP** esté habilitado con el puerto por defecto (1433).
 
 ### 2. Conectividad a SQL Server
 
