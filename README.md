@@ -31,7 +31,7 @@ El proyecto se basa en **Clean Architecture**, asegurando que el código de nego
 
 ### 1. Requisitos de la Base de Datos
 
-**¡IMPORTANTE!** Para que el proyecto funcione, la base de datos `DB_Usuarios` debe estar configurada.
+**¡IMPORTANTE!** Para que el proyecto funcione, la base de datos `MAF_Usuarios` debe estar configurada.
 
 1.  **Ejecute los Scripts de SQL:** Debe ejecutar el script SQL que contiene las sentencias `CREATE DATABASE`, `CREATE TABLE Usuario` y todos los `CREATE PROCEDURE` (Stored Procedures) requeridos para el CRUD.
 2.  **Configuración de SQL Server:** Asegure que su instancia de SQL Server esté en **Modo de Autenticación Mixta** y que el protocolo **TCP/IP** esté habilitado.
@@ -44,5 +44,5 @@ La cadena de conexión debe usar **`host.docker.internal`** para que el contened
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=host.docker.internal;Database=DB_Usuarios;User Id=sa;Password=TuContrasenaSegura;TrustServerCertificate=True"
+  "DefaultConnection": "Server=host.docker.internal;Database=MAF_Usuarios;User Id=sa;Password=TuContrasenaSegura;TrustServerCertificate=True"
 }
