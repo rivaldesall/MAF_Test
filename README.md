@@ -10,10 +10,10 @@ El proyecto se basa en **Clean Architecture**, asegurando que el código de nego
 
 | Proyecto | Capa | Rol Principal |
 | :--- | :--- | :--- |
-| `Domain` | 🟢 Dominio | Definición de la entidad `Usuario`. |
-| `Application` | 🟡 Aplicación | Definición de interfaces de contratos (`IUnitOfWork`, `IUsuarioRepository`). |
-| `Infrastructure` | 🟠 Infraestructura | Implementación del acceso a datos usando Dapper y SQL Server. |
-| `Api` | 🔴 Presentación | Puntos de entrada (*Controllers*) y configuración del *host*. |
+| `Domain` | Dominio | Definición de la entidad `Usuario`. |
+| `Application` | Aplicación | Definición de interfaces de contratos (`IUnitOfWork`, `IUsuarioRepository`). |
+| `Infrastructure` | Infraestructura | Implementación del acceso a datos usando Dapper y SQL Server. |
+| `Api` | Presentación | Puntos de entrada (*Controllers*) y configuración del *host*. |
 
 ---
 
