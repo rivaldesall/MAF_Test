@@ -1,0 +1,11 @@
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\bin\Debug\net8.0\Domain.dll
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\bin\Debug\net8.0\Domain.pdb
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\Domain.dll
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\Domain.pdb
+C:\ricardo\MAF_test\MAF_Usuario_API\MAF_Usuario\Domain\obj\Debug\net8.0\ref\Domain.dll

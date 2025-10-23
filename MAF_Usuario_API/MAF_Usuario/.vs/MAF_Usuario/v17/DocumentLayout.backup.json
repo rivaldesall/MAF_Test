@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE3F09E-71DD-4D8F-BE2C-738C178CB1AD}|Test\\Test.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\test\\unittest\\usuariocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE3F09E-71DD-4D8F-BE2C-738C178CB1AD}|Test\\Test.csproj|solutionrelative:test\\unittest\\usuariocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F6DE11-BABA-491C-9638-C4805A998504}|Infrastructure\\Infrastructure.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F6DE11-BABA-491C-9638-C4805A998504}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840FA371-07F3-41E1-96F6-B37D4FD4F1B4}|Application\\Application.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\application\\interfaces\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840FA371-07F3-41E1-96F6-B37D4FD4F1B4}|Application\\Application.csproj|solutionrelative:application\\interfaces\\repositories\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA469C2-4B41-4F7D-8D7A-8773E7F4D3B8}|Api\\Api.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA469C2-4B41-4F7D-8D7A-8773E7F4D3B8}|Api\\Api.csproj|solutionrelative:api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20F6DE11-BABA-491C-9638-C4805A998504}|Infrastructure\\Infrastructure.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20F6DE11-BABA-491C-9638-C4805A998504}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA469C2-4B41-4F7D-8D7A-8773E7F4D3B8}|Api\\Api.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EAA469C2-4B41-4F7D-8D7A-8773E7F4D3B8}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840FA371-07F3-41E1-96F6-B37D4FD4F1B4}|Application\\Application.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840FA371-07F3-41E1-96F6-B37D4FD4F1B4}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA469C2-4B41-4F7D-8D7A-8773E7F4D3B8}|Api\\Api.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA469C2-4B41-4F7D-8D7A-8773E7F4D3B8}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48550911-249B-44AA-9604-99B5967E7A4E}|Domain\\Domain.csproj|c:\\ricardo\\maf_test\\maf_usuario_api\\maf_usuario\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48550911-249B-44AA-9604-99B5967E7A4E}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioControllerTests.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Test\\UnitTest\\UsuarioControllerTests.cs",
+              "RelativeDocumentMoniker": "Test\\UnitTest\\UsuarioControllerTests.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Test\\UnitTest\\UsuarioControllerTests.cs",
+              "RelativeToolTip": "Test\\UnitTest\\UsuarioControllerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T14:08:43.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-23T03:12:14.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T02:11:20.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T02:07:44.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Api\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T01:59:22.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T22:02:06.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Infrastructure\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Infrastructure\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:51:51.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Domain\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:41:26.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Application\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\ricardo\\MAF_test\\MAF_Usuario_API\\MAF_Usuario\\Application\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\Repositories\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T21:40:57.198Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
